@@ -38,21 +38,6 @@ function App() {
             <h3 id="leftHeader" class="border-light text-light p-2">Projects</h3>
         </div>
     
-    
-    
-    
-    
-    
-    
-    {/* <Grid container spacing={2} columns={16}>
-      <Grid item xs={8} className='indiCell'>
-        <We2LinkCard></We2LinkCard>
-      </Grid>
-      <Grid item xs={8} className='indiCell2'>
-        <We2LinkCard></We2LinkCard>
-      </Grid>
-    </Grid> */}
-
         <div class="container">
             <div class="row">
                 {/* left side */}

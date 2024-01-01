@@ -1,11 +1,11 @@
 export default function MarcoWebsiteCardComponent() {
   return (
   <div class="card" className='card'>
-    <img class="card-img-top" src="MarcoWebsite.png" alt="Card image cap"/>
+    <img class="card-img-top" src="MarcoWebsite.png" alt=""/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">Personal Website</h5>
+      <p class="card-text">Built a responsive personal portfolio website using React, JavaScript, CSS, and Bootstrap.</p>
+      <a href="https://github.com/mgonzalez12000/MarcoGonzalezPortfolio" class="btn btn-primary">View Source Code</a>
     </div>
   </div>
   );
