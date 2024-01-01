@@ -10,6 +10,7 @@
 .pfp-logo {
   height: 20vmin;
   pointer-events: none;
+  margin-bottom: -1%;
 }
 
 .pfp-header {
@@ -34,3 +35,27 @@
 .sizeConnect{
   font-size: 0.73em;
 }
+
+.gridProjects{
+  background-color: blue;
+}
+
+.indiCell{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indiCell2{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  background-color: rgb(54, 58, 62);
+  color: white;
+}
+
