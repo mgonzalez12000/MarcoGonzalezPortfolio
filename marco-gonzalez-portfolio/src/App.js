@@ -1,20 +1,18 @@
 import profile from './profile.jpg';
 import './App.css';
-import NameTitle from './components/NameTitle';
-import NavBarSite from './components/NavbarSite';
-import Connect from './components/Connect';
+import NameTitleComponent from './components/NameTitleComponent';
+import NavbarComponent from './components/NavbarComponent';
+import SocialMediaComponent from './components/SocialMediaComponent';
 import TimelineSection from './components/TimelineSection';
-import We2LinkCard from './components/We2LinkCard';
-import MarcoWebsiteCardComponent from './components/MarcoWebsiteCardComponent';
-import RoboticsCardComponent from './components/RoboticsCardComponent';
-import JDBCCardComponent from './components/JDBCCardComponent';
 import FooterComponent from './components/FooterComponent';
+import TitleComponent from './components/TitleComponent.';
+import CardImageComponent from './components/CardImageComponent';
 import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
   <>
-  <NavBarSite></NavBarSite>
+  <NavbarComponent item1="Experience" item2="Projects" downloadItem="Download Resume"/>
   <br></br>
   <br></br>
     <div className='body'>
@@ -23,53 +21,46 @@ function App() {
                 <img src={profile} className="pfp-logo" alt="logo" />
             </header>
             <div className='nameTitle'>
-                <NameTitle></NameTitle>
+                <NameTitleComponent/>
             </div>
             <div className = 'sizeConnect'>
-                <Connect></Connect>
+                <SocialMediaComponent/>
             </div>
         </div>
-        <div className='titles' id="ExperienceID">
-            <h3 class="border-light text-light p-2">Experience</h3>
-        </div>
+        <TitleComponent title = "Experience" titleID = "ExperienceID"/>
         <br></br>
-        <TimelineSection></TimelineSection>
+        <TimelineSection/>
         <br></br>
-        <div className='titles' id='ProjectsID'>
-            <h3 id="leftHeader" class="border-light text-light p-2">Projects</h3>
-        </div>
-    
+        <TitleComponent title = "Projects" titleID = "ProjectsID"/>
         <div class="container">
             <div class="row">
-                {/* left side */}
                 <div class="m-0 p-2 col-md-7 col-lg-6">
                     <div class="p-4">
                         <Fade>
-                            <We2LinkCard></We2LinkCard>
+                            <CardImageComponent imageSRC = "We2Link.png" cardTitle = "Accessibility Page" cardText = "Built an accessibility page from the ground up to provide users who have cognitive impairments with a better user experience." buttonLink = "https://youtu.be/-TpmvU3DKE0?si=Dy6vQmn-HdNtYiYY" buttonText = "View Demo"/>
                         </Fade>
                     </div>
                     <div class="p-4">
                         <Fade>
-                            <JDBCCardComponent></JDBCCardComponent>
+                            <CardImageComponent imageSRC = "JDBC.png" cardTitle = "PostgreSQL JDBC Client" cardText = "Designed an ER diagram and schema with appropriate key constraints. Created the database using DDL SQL and implemented a JDBC client that uses PostgreSQL to allow users to interact with the database." buttonLink = "https://github.com/mgonzalez12000/PostgresSQLJDBC" buttonText = "View Source Code"/>
                         </Fade>
                     </div>
                 </div>
-                {/* right side */}
                 <div class="m-0 p-2 col-md-5 col-lg-6 ">
                     <div class="p-4">
                         <Fade>
-                            <MarcoWebsiteCardComponent></MarcoWebsiteCardComponent>
+                            <CardImageComponent imageSRC = "MarcoWebsite.png" cardTitle = "Personal Website" cardText = "Built a responsive personal portfolio website using React, JavaScript, CSS, and Bootstrap." buttonLink = "https://github.com/mgonzalez12000/MarcoGonzalezPortfolio" buttonText = "View Source Code"/>
                         </Fade>
                     </div>
                     <div class="p-4">
                         <Fade>
-                            <RoboticsCardComponent></RoboticsCardComponent>
+                            <CardImageComponent imageSRC = "Robotics.png" cardTitle = "Robotics" cardText = "Wrote embedded C++ code using the Arduino IDE running off a VM that utilized Linux’s Ubuntu to enable functionality for a Raspberry Pi and various components such as LED’s ultrasonic sensors, step motors, and screens." buttonLink = "https://github.com/mgonzalez12000/Robotics-Linux-Arduino" buttonText = "View Projects"/>
                         </Fade>
                     </div>
                 </div>
             </div>
         </div>
-        <FooterComponent></FooterComponent>
+        <FooterComponent/>
   </div>
    </>
   );
