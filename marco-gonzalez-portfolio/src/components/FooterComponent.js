@@ -22,7 +22,7 @@ const FooterComponent = () => {
                         you wish to contact or connect with Marco, please do it through any of the platforms listed above.
                     </div>
                     <div class="p-4">
-                        Copyright © MarcoGonzalez.netlify.app 2024
+                        Copyright © marcogonzalez.netlify.app 2024
                     </div>
                 </div>
                 {/* right side */}
