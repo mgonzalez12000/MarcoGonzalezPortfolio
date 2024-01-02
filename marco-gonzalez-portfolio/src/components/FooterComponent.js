@@ -18,7 +18,7 @@ const FooterComponent = () => {
                         this site does not collect and store any visitor's personal data or collect any ad revenue.
                     </div>
                     <div class="p-4">
-                        Furthermore, you should not expect at any point for someone to contact you direct in order to request any personal information. If
+                        Furthermore, you should not expect anyone claiming to represent this site to contact you directly to request any personal information. If
                         you wish to contact or connect with Marco, please do it through any of the platforms listed above.
                     </div>
                 </div>
