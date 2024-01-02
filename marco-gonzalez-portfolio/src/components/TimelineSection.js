@@ -14,12 +14,12 @@ const TimelineSection = () => {
       className="vertical-timeline-element--work"
       contentStyle={{ background: 'rgb(53, 121, 245)', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  rgb(53, 121, 245)' }}
-      date="January 2024 - present"
+      date="January 2024 - Present"
       iconStyle={{ background: 'rgb(53, 121, 245)', color: '#fff' }}
       icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">Wells Fargo</h3>
-        <h4 className="vertical-timeline-element-subtitle">Associate Engineer</h4>
+        <h4 className="vertical-timeline-element-title">Wells Fargo</h4>
+        <h6 className="vertical-timeline-element-subtitle">Associate Engineer</h6>
         <p>
           TBD
         </p>
@@ -32,7 +32,7 @@ const TimelineSection = () => {
       iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
       icon={<FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">California State University, Los Angeles</h3>
+        <h4 className="vertical-timeline-element-title">California State University, Los Angeles</h4>
         <p>
           Graduated with a Bachelor's of Science in Computer Science
         </p>
@@ -45,8 +45,8 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">We2Link</h3>
-        <h4 className="vertical-timeline-element-subtitle">Full Stack Software Engineer Intern</h4>
+        <h4 className="vertical-timeline-element-title">We2Link</h4>
+        <h6 className="vertical-timeline-element-subtitle">Full Stack Software Engineer Intern</h6>
         <p>
           ●	Successfully migrated a React Native application to a web-based platform using ReactJS, Tailwind CSS, TypeScript, and Google Firebase by developing and implementing 5 new react components and 1 new accessibility settings page.
         </p>
@@ -65,8 +65,8 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">Johnson & Johnson</h3>
-        <h4 className="vertical-timeline-element-subtitle">Technology Intern</h4>
+        <h4 className="vertical-timeline-element-title">Johnson & Johnson</h4>
+        <h6 className="vertical-timeline-element-subtitle">Technology Intern</h6>
         <p>
           ●	Shaped the Strategic Customer Group website by crafting Agile User Stories in Jira through collaborative discussions with 4 tech leads and 2 stakeholders to capture business requirements and ensure top-notch UI/UX design.
         </p>
@@ -85,8 +85,8 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">Community Partners</h3>
-        <h4 className="vertical-timeline-element-subtitle">Computer Science Tutor</h4>
+        <h4 className="vertical-timeline-element-title">Community Partners</h4>
+        <h6 className="vertical-timeline-element-subtitle">Computer Science Tutor</h6>
         <p>
           ● Conducted lectures on programming fundamentals such as procedural programming, scope, functions, data structures, and algorithms. Proceeded to teach app development and introduce the event-driven programming paradigm using the JavaScript language on the Code.org platform.
         </p>
@@ -102,8 +102,8 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">Texas Advanced Computing Center (TACC)</h3>
-        <h4 className="vertical-timeline-element-subtitle">Data Science Research Intern</h4>
+        <h4 className="vertical-timeline-element-title">Texas Advanced Computing Center (TACC)</h4>
+        <h6 className="vertical-timeline-element-subtitle">Data Science Research Intern</h6>
         <p>
           ●	As part of the ACSC program, I collaborated with 7 other multidisciplinary teams to apply data science, computational thinking, and enabled computational research experience towards a social challenge.
         </p>
@@ -125,8 +125,8 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">NASA</h3>
-        <h4 className="vertical-timeline-element-subtitle">Pre-Trainee</h4>
+        <h4 className="vertical-timeline-element-title">NASA</h4>
+        <h6 className="vertical-timeline-element-subtitle">Pre-Trainee</h6>
         <p>
           ●	Selected as 1 of 50 students to participate in NASA DIRECT STEM, where I attended workshops by JPL, UCI, and TACC to enhance Python and Linux skills for advanced computation and programming.
         </p>
@@ -145,7 +145,7 @@ const TimelineSection = () => {
         iconStyle={{ background: 'rgb(53, 58, 63)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faSchool}></FontAwesomeIcon>}
       >
-        <h3 className="vertical-timeline-element-title">California State University, Los Angeles</h3>
+        <h4 className="vertical-timeline-element-title">California State University, Los Angeles</h4>
         <p>
           Began attending Cal State LA
         </p>

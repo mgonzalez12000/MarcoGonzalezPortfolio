@@ -8,6 +8,7 @@ import We2LinkCard from './components/We2LinkCard';
 import MarcoWebsiteCardComponent from './components/MarcoWebsiteCardComponent';
 import RoboticsCardComponent from './components/RoboticsCardComponent';
 import JDBCCardComponent from './components/JDBCCardComponent';
+import FooterComponent from './components/FooterComponent';
 import Fade from 'react-reveal/Fade';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
   <br></br>
   <br></br>
     <div className='body'>
-        <div className="pfp">
+        <div className="pfp" id='home'>
             <header className="pfp-header">
                 <img src={profile} className="pfp-logo" alt="logo" />
             </header>
@@ -53,7 +54,7 @@ function App() {
                         </Fade>
                     </div>
                 </div>
-
+                {/* right side */}
                 <div class="m-0 p-2 col-md-5 col-lg-6 ">
                     <div class="p-4">
                         <Fade>
@@ -68,6 +69,7 @@ function App() {
                 </div>
             </div>
         </div>
+        <FooterComponent></FooterComponent>
   </div>
    </>
   );
