@@ -32,6 +32,7 @@ const SocialMediaComponent = () => {
           </div>
         </div>
       </div>
-  )
-}
-export default SocialMediaComponent
+  );
+};
+
+export default SocialMediaComponent;

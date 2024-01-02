@@ -151,6 +151,7 @@ const TimelineSection = () => {
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
-  )
-}
-export default TimelineSection
+  );
+};
+
+export default TimelineSection;

@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const CardImageComponent = (props) => {
+const CardImageComponent = ({ imageSRC, cardTitle, cardText, buttonLink, buttonText }) => {
   return (
-    <div class = "card" className = "card">
-        <img class = "card-img-top" src = {props.imageSRC} alt =""/>
-        <div class = "card-body">
-            <h5 class="card-title">{props.cardTitle}</h5>
-            <p class="card-text">{props.cardText}</p>
-            <a href={props.buttonLink} class="btn btn-primary">{props.buttonText}</a>
-        </div>
+    <div className="card">
+      <img className="card-img-top" src={imageSRC} alt="" />
+      <div className="card-body">
+        <h5 className="card-title">{cardTitle}</h5>
+        <p className="card-text">{cardText}</p>
+        <a href={buttonLink} className="btn btn-primary">
+          {buttonText}
+        </a>
+      </div>
     </div>
-  )
-}
-export default CardImageComponent
+  );
+};
+
+export default CardImageComponent;

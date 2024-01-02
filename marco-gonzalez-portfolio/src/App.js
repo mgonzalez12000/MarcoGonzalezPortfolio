@@ -7,12 +7,13 @@ import TimelineSection from './components/TimelineSection';
 import FooterComponent from './components/FooterComponent';
 import TitleComponent from './components/TitleComponent.';
 import CardImageComponent from './components/CardImageComponent';
+import TechnicalSkillsComponent from './components/TechnicalSkillsComponent';
 import Fade from 'react-reveal/Fade';
 
 function App() {
   return (
   <>
-  <NavbarComponent item1="Experience" item2="Projects" downloadItem="Download Resume"/>
+  <NavbarComponent item1="Experience" item2="Projects" item3="Technical Skills"downloadItem="Download Resume"/>
   <br></br>
   <br></br>
     <div className='body'>
@@ -60,6 +61,12 @@ function App() {
                 </div>
             </div>
         </div>
+        <TitleComponent title = "Technical Skills" titleID = "TechnicalSkillsID"/>
+        <Fade>
+            <TechnicalSkillsComponent></TechnicalSkillsComponent>
+        </Fade>
+        <br/>
+        <br/>
         <FooterComponent/>
   </div>
    </>
