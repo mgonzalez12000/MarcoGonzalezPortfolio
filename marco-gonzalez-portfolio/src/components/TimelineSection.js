@@ -108,9 +108,6 @@ const TimelineSection = () => {
             ●	As part of the ACSC program, I collaborated with 7 other multidisciplinary teams to apply data science, computational thinking, and enabled computational research experience towards a social challenge.
           </p>
           <p>
-            ●	As part of the ACSC program, I collaborated with 7 other multidisciplinary teams to apply data science, computational thinking, and enabled computational research experience towards a social challenge.
-          </p>
-          <p>
             ●	Used Python’s Matplotlib, Pandas, and NumPy libraries to parse CSV files, clean data, and initialize DataFrames. Created 4 effective, and engaging data visualizations to support my research question.
           </p>
           <p>
