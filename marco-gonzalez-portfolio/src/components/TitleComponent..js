@@ -1,10 +1,10 @@
 import React from 'react';
 
-const TitleComponent = (props) => {
+const TitleComponent = ({ title, titleID }) => {
   return (
     <div>
-      <div className='titles' id={props.titleID}>
-        <h3 id="leftHeader" className="border-light text-light p-2">{props.title}</h3>
+      <div className='titles' id={titleID}>
+        <h3 id="leftHeader" className="border-light text-light p-2">{title}</h3>
       </div>
     </div>
   );

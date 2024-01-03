@@ -1,3 +1,8 @@
+/*
+Website developed by Marco Gonzalez. Date: 01/03/2023
+Last updated on: 01/03/2023
+*/
+
 import profile from './profile.jpg';
 import './App.css';
 import NameTitleComponent from './components/NameTitleComponent';
