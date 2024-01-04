@@ -19,7 +19,7 @@ const TimelineSection = () => {
       icon={<FontAwesomeIcon icon={faSuitcase}></FontAwesomeIcon>}
       >
         <h4 className="vertical-timeline-element-title">Wells Fargo</h4>
-        <h6 className="vertical-timeline-element-subtitle">Associate Engineer</h6>
+        <h6 className="vertical-timeline-element-subtitle">Engineering Associate</h6>
         <p>
           TBD
         </p>
