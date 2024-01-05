@@ -1,0 +1,7 @@
+.technicalSkillsImage {
+    transition: all 0.3s;
+}
+
+.technicalSkillsImage:hover {
+    transform: scale(1.30);
+}

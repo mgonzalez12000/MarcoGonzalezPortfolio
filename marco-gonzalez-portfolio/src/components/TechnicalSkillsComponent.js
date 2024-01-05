@@ -1,4 +1,5 @@
 import React from 'react';
+import './TechnicalSkillsComponent.css';
 
 const TechnicalSkillsComponent = () => {
   const icons = [
@@ -13,6 +14,7 @@ const TechnicalSkillsComponent = () => {
     { name: 'CSS', file: 'css.png', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
     { name: 'Bootstrap', file: 'bootstrap.png', link: 'https://getbootstrap.com/' },
     { name: 'Firebase', file: 'firebase.png', link: 'https://firebase.google.com/' },
+    { name: 'PostgreSQL', file: 'postgreSQL.png', link: 'https://www.postgresql.org/'},
     { name: 'GitHub', file: 'github.png', link: 'https://docs.github.com/en' },
     { name: 'Jira', file: 'jira.png', link: 'https://www.atlassian.com/software/jira' },
   ];
@@ -51,6 +53,7 @@ const TechnicalSkillsComponent = () => {
                     alt={icon.name}
                     title={icon.name}
                     style={imageStyle}
+                    class = "technicalSkillsImage"
                   />
                 </a>
               </div>
