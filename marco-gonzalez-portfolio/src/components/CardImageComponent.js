@@ -1,6 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const CardImageComponent = ({ imageSRC, cardTitle, cardText, buttonLink, buttonText }) => {
+const CardImageComponent = ({
+  imageSRC,
+  cardTitle,
+  cardText,
+  buttonLink,
+  buttonText,
+}) => {
   return (
     <div className="card">
       <img className="card-img-top" src={imageSRC} alt="" />

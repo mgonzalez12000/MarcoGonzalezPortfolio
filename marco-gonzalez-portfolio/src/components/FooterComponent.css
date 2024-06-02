@@ -1,9 +1,9 @@
-.footerBackgroundColor{
-    background-color: rgb(53, 58, 63);
-    color: white;
+.footerBackgroundColor {
+  background-color: rgb(53, 58, 63);
+  color: white;
 }
 
-.copyright{
-    align-items: center;
-    text-align: center;
+.copyright {
+  align-items: center;
+  text-align: center;
 }
