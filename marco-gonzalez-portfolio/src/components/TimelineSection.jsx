@@ -33,17 +33,28 @@ const TimelineSection = () => {
       >
         <h4 className="vertical-timeline-element-title">Wells Fargo</h4>
         <h6 className="vertical-timeline-element-subtitle">
-          Engineering Associate
+          Engineering Associate (Software)
         </h6>
         <p>
           <p>
-            ● In a full stack role, I am currently part of a rewrite project of
-            an internal web app from VB.Net to Java/Spring (backend) and
-            React/TypeScript (frontend). Developing RESTful APIs for data
-            retrieval from a Microsoft SQL Server database, with testing done
-            using JUnit, Postman, and Karate. Implemented reusable React
-            components to improve UI, with Jest ensuring rendering and
-            functionality.
+            ● I'm currently taking on a full-stack role for a rewrite project of
+            an internal web application from VB.Net to Java/Spring (back-end)
+            and VB.net to React/TypeScript (front-end). When working on the
+            back-end, I've been responsible to develop RESTful APIs (GET/POST)
+            to interact with tables from a Microsoft SQL Server database. On the
+            front-end, I've created 10 new pages by using Wells Fargo's internal
+            React library and 8 re-usable React components. Both of these
+            responsabilities modernize the legacy internal app's user interface,
+            while also ensuring to meet business needs by persistantly
+            communicating and presenting demo's to project owners. In additiona
+            to creating new pages and components, I've also been responsible to
+            'connecting' my API services to the front-end by effectively
+            triggering them within my developed pages. Last but not least, I
+            also wrote tests for all of my new code. For back-end development, I
+            used JUnit and Karate, and used Postman to ensure the mappings,
+            payloads, and tokens are working as expected. On the front-end, I
+            utilized Jest to ensure both front-end components and API calls are
+            rendering onto the screen.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
@@ -53,10 +64,10 @@ const TimelineSection = () => {
             during development.
           </p>
           <p>
-            ● Authored comprehensive, detail-oriented API documentation using
-            Swagger for existing APIs, including the creation of sample
-            payloads, enhancing developers' understanding and facilitating
-            seamless integration.
+            ● Wrote comprehensive and detail-oriented API documentation for
+            existing APIs. Which included the creation of sample payloads. As a
+            result of this documentation, it increased developers' understanding
+            of such services and facilitated seamless integration.
           </p>
         </p>
       </VerticalTimelineElement>
