@@ -33,28 +33,30 @@ const TimelineSection = () => {
       >
         <h4 className="vertical-timeline-element-title">Wells Fargo</h4>
         <h6 className="vertical-timeline-element-subtitle">
-          Engineering Associate (Software)
+          Software Engineering Associate
         </h6>
         <p>
           <p>
-            ● I'm currently taking on a full-stack role for a rewrite project of
-            an internal web application from VB.Net to Java/Spring (back-end)
-            and VB.net to React/TypeScript (front-end). When working on the
-            back-end, I've been responsible to develop RESTful APIs (GET/POST)
-            to interact with tables from a Microsoft SQL Server database. On the
-            front-end, I've created 10 new pages by using Wells Fargo's internal
-            React library and 8 re-usable React components. Both of these
-            responsabilities modernize the legacy internal app's user interface,
-            while also ensuring to meet business needs by persistantly
-            communicating and presenting demo's to project owners. In additiona
-            to creating new pages and components, I've also been responsible to
-            'connecting' my API services to the front-end by effectively
-            triggering them within my developed pages. Last but not least, I
-            also wrote tests for all of my new code. For back-end development, I
-            used JUnit and Karate, and used Postman to ensure the mappings,
-            payloads, and tokens are working as expected. On the front-end, I
-            utilized Jest to ensure both front-end components and API calls are
-            rendering onto the screen.
+            ● I'm currently in a full-stack role for rewriting an internal web
+            app, migrating from VB.Net to Java/Spring (back-end) and
+            React/TypeScript (front-end). Since our development phase began,
+            I've developed 6 RESTful API services to communicate with a
+            Microsoft SQL Server database. To test these new services, I wrote
+            Karate and Junit Tests. I also utilized Postman to manually test and
+            validate my API services, ensuring proper request and response
+            handling, and verifying that the payloads, headers, and tokens were
+            functioning as expected. This allowed me to simulate different
+            scenarios and confirm the APIs were working as intended before
+            integrating them with the front-end. On the front-end, I'm
+            spearheading development for our US team. I've developed 11 new
+            pages and 8 reusable React components by utilizing Wells Fargo’s
+            internal React library. Additionally, I also integrated my own API
+            services, as well as services developed by other engineers in my
+            team, into the front-end to ensure that data is dynamically being
+            fetched and/or posted. As a result of my contributions on the
+            front-end and back-end, this has modernized the legacy web app while
+            aligning with business needs through regular demos and communication
+            with project owners. We are currently in our testing phase.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
