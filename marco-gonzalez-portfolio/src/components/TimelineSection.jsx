@@ -57,12 +57,16 @@ const TimelineSection = () => {
           </p>
           <p>
             ● On the front-end, I'm spearheading development for our US team.
-            I've developed 11 new fully functional pages and 8 reusable React
+            I've developed 5 new fully functional pages and 8 reusable React
             components by utilizing Wells Fargo’s internal React library.
             Additionally, I integrated my own API services, as well as services
             developed by other engineers in my team, into the front-end to
             ensure that data is dynamically being fetched and/or posted. I
             utilized Jest in order to write unit tests.
+          </p>
+          <p>
+            ● Quickly addressed defects assigned by QA to ensure timely
+            deployment of changes to our UAT, SIT, and DEV environments.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
