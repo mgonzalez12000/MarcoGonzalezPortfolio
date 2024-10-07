@@ -48,7 +48,7 @@ const TimelineSection = () => {
             ● On the back-end, I've developed 6 RESTful API services, using
             Spring Boot with Hibernate (JPA) for database interaction, to
             communicate with a Microsoft SQL Server database. To test these new
-            services, I wrote Karate and JUnit tests. and utilized Postman to
+            services, I wrote Karate and JUnit tests and utilized Postman to
             manually test and validate my API services, in order to ensure
             proper request and response handling, and verifying that the
             payloads, headers, and tokens were functioning as expected. This
