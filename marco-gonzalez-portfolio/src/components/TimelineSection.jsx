@@ -45,7 +45,7 @@ const TimelineSection = () => {
             communication with project owners.
           </p>
           <p>
-            ● On the back-end, I've developed 6 RESTful API services, using
+            ● On the back-end, I've developed 4 RESTful API services, using
             Spring Boot with Hibernate (JPA) for database interaction, to
             communicate with a Microsoft SQL Server database. To test these new
             services, I wrote Karate and JUnit tests. I utilized Postman to
@@ -57,7 +57,7 @@ const TimelineSection = () => {
           </p>
           <p>
             ● On the front-end, I'm spearheading development for our US team.
-            I've developed 5 new fully functional pages and 8 reusable React
+            I've developed 6 new fully functional pages and 8 reusable React
             components by utilizing Wells Fargo’s internal React library.
             Additionally, I integrated my own API services, as well as services
             developed by other engineers in my team, into the front-end to
