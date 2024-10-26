@@ -39,7 +39,7 @@ const TimelineSection = () => {
           <p>
             ● During the span of 6 months, I took on a full-stack role and
             successfully rewrote & migrated an internal web app under a fast
-            paced agile environment, from VB.Net to Java/Spring (back-end) and
+            paced Scrum environment, from VB.Net to Java/Spring (back-end) and
             React/TypeScript (front-end). This modernized the legacy web app
             while aligning with business needs through regular demos and
             communication with project owners.
