@@ -37,36 +37,38 @@ const TimelineSection = () => {
         </h6>
         <p>
           <p>
-            ● During the span of 6 months, I took on a full-stack role and
-            successfully rewrote & migrated an internal web app under a fast
-            paced Scrum environment, from VB.Net to Java/Spring (back-end) and
-            React/TypeScript (front-end). This modernized the legacy web app
-            while aligning with business needs through regular demos and
-            communication with project owners.
+            ● Took on a full-stack role and successfully rewrote & migrated an
+            internal web app, from VB.Net to Java/Spring (back-end) and
+            React/TypeScript (front-end) within under a fast paced Scrum
+            environment. This modernized the legacy web app while aligning with
+            business needs through regular demos and communication with project
+            owners.
           </p>
           <p>
-            ● On the back-end, I've developed 4 RESTful API services, using
-            Spring Boot with Hibernate (JPA) for database interaction, to
-            communicate with a Microsoft SQL Server database. To test these new
-            services, I wrote Karate and JUnit tests. I utilized Postman to
-            manually test and validate my API services, in order to ensure
-            proper request and response handling, and verifying that the
-            payloads, headers, and tokens were functioning as expected. This
+            ● On the back-end, I developed 4 RESTful API services, using Spring
+            Boot with JPA, to communicate with a Microsoft SQL Server database.
+            To test these new services, I wrote Karate and JUnit tests, and
+            utilized Postman to manually test and validate my API services,
+            ensuring proper request and response handling, and verifying that
+            the payloads, headers, and tokens were functioning as expected. This
             allowed me to simulate different scenarios and confirm the APIs were
             working as intended before integrating them with the front-end.
+            Wrote JUnit tests for unit testing and Karate for automated testing.
           </p>
           <p>
-            ● On the front-end, I'm spearheading development for our US team.
-            I've developed 6 new fully functional pages and 8 reusable React
-            components by utilizing Wells Fargo’s internal React library.
+            ● With my prior knowledge of React, I led front-end development for
+            our US team. I developed 6 new fully functional pages and 8 reusable
+            React components by utilizing Wells Fargo’s internal React library.
             Additionally, I integrated my own API services, as well as services
             developed by other engineers in my team, into the front-end to
-            ensure that data is dynamically being fetched and/or posted. I
-            utilized Jest in order to write unit tests.
+            ensure that data is dynamically being fetched or posted by user
+            interaction on the front-end. I utilized Jest for unit testing and
+            Playwright for automated testing.
           </p>
           <p>
             ● Quickly addressed defects assigned by QA to ensure timely
-            deployment of changes to our UAT, SIT, and DEV environments.
+            deployment of changes to our non-prod UAT, SIT, and DEV environments
+            for testing before production releases.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
