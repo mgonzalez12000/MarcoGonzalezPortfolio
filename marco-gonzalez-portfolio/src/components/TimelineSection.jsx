@@ -52,7 +52,6 @@ const TimelineSection = () => {
             the payloads, headers, and tokens were functioning as expected. This
             allowed me to simulate different scenarios and confirm the APIs were
             working as intended before integrating them with the front-end.
-            Wrote JUnit tests for unit testing and Karate for automated testing.
           </p>
           <p>
             ● With my prior knowledge of React, I led front-end development for
