@@ -39,10 +39,9 @@ const TimelineSection = () => {
           <p>
             ● Took on a full-stack role and successfully rewrote & migrated an
             internal web app, from VB.Net to Java/Spring (back-end) and
-            React/TypeScript (front-end) within under a fast paced Scrum
-            environment. This modernized the legacy web app while aligning with
-            business needs through regular demos and communication with project
-            owners.
+            React/TypeScript (front-end) under a fast paced Scrum environment.
+            This modernized the legacy web app while aligning with business
+            needs through regular demos and communication with project owners.
           </p>
           <p>
             ● On the back-end, I developed 4 RESTful API services, using Spring
