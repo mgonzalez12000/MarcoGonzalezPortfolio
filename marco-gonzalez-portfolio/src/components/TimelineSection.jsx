@@ -170,6 +170,7 @@ const TimelineSection = () => {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(53, 58, 63)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(53, 58, 63)" }}
+        date="January 2022 - August 2023"
         iconStyle={{
           backgroundImage: `url(${engineerFactory})`,
           backgroundSize: "100%",
