@@ -4,7 +4,13 @@ import { faM, faG } from "@fortawesome/free-solid-svg-icons";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import "./NavbarComponent.css";
 
-const NavbarComponent = ({ item1, item2, item3, downloadItem }) => {
+const NavbarComponent = ({
+  experience,
+  projects,
+  technicalSkills,
+  downloadItem,
+  scrollToSection,
+}) => {
   return (
     <Navbar
       expand="lg"
@@ -14,7 +20,7 @@ const NavbarComponent = ({ item1, item2, item3, downloadItem }) => {
       variant="dark"
     >
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand>
           <h6 className="navBarText">
             <FontAwesomeIcon icon={faM} />
             <FontAwesomeIcon icon={faG} />
@@ -23,14 +29,14 @@ const NavbarComponent = ({ item1, item2, item3, downloadItem }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#ExperienceID">
-              <h6 className="linkText">{item1}</h6>
+            <Nav.Link onClick={() => scrollToSection("ExperienceID")}>
+              <h6 className="linkText">{experience}</h6>
             </Nav.Link>
-            <Nav.Link href="#ProjectsID">
-              <h6 className="linkText">{item2}</h6>
+            <Nav.Link onClick={() => scrollToSection("ProjectsID")}>
+              <h6 className="linkText">{projects}</h6>
             </Nav.Link>
-            <Nav.Link href="#TechnicalSkillsID">
-              <h6 className="linkText">{item3}</h6>
+            <Nav.Link onClick={() => scrollToSection("TechnicalSkillsID")}>
+              <h6 className="linkText">{technicalSkills}</h6>
             </Nav.Link>
             <Nav.Link
               href="MarcoGonzalezResume.pdf"
