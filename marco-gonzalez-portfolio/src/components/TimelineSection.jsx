@@ -38,10 +38,10 @@ const TimelineSection = () => {
         <p>
           <p>
             ● Took on a full-stack role and successfully rewrote & migrated an
-            internal web app, from VB.Net to Java/Spring (back-end) and
-            React/TypeScript (front-end) under a fast paced Scrum environment.
-            This modernized the legacy web app while aligning with business
-            needs through regular demos and communication with project owners.
+            internal web app, from VB.Net to Java/Spring and React/TypeScript
+            under a fast paced Scrum environment. This modernized the legacy web
+            app while aligning with business needs through regular demos and
+            communication with project owners.
           </p>
           <p>
             ● On the back-end, I developed 4 RESTful API services, using Spring
@@ -64,9 +64,22 @@ const TimelineSection = () => {
             Playwright for automated testing.
           </p>
           <p>
-            ● Quickly addressed defects assigned by QA to ensure timely
-            deployment of changes to our non-prod UAT, SIT, and DEV environments
-            for testing before production releases.
+            ● Independently refactored the tool’s initial Playwright test suite
+            of 81 spec files to resolve flaky tests caused by premature
+            assertions and data race conditions during parallel execution. This
+            resulted in improvement of manageability, reliability, and readiness
+            for HyperExecute and Harness deployment pipelines, while preventing
+            CI/CD slowdowns from unnecessary test restarts due to false
+            positives.
+          </p>
+          <p>
+            ● Gained project ownership by developing deep understanding of
+            front-end and back-end components, proficiency in release
+            management, Harness deployments, and GitHub Actions to trigger
+            release workflows, monitor failing workflows, and deploy images. I
+            now serve as a primary liaison between engineering teams and project
+            owners regarding UAT deployments, release statuses, and
+            production-impacting defects affecting our end users.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
@@ -115,8 +128,8 @@ const TimelineSection = () => {
         </h6>
         <p>
           ● Successfully migrated a React Native application to a web-based
-          platform using ReactJS, Tailwind CSS, TypeScript, and Google Firebase
-          by developing and implementing 5 new react components and 1 new
+          platform using React/TypeScript, Tailwind CSS, and Google Firebase by
+          developing and implementing 5 new react components and 1 new
           accessibility settings page.
         </p>
         <p>
