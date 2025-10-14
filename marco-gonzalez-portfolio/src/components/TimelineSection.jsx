@@ -65,7 +65,7 @@ const TimelineSection = () => {
           </p>
           <p>
             ● Independently refactored the tool’s initial Playwright test suite
-            of 81 spec files to resolve flaky tests caused by premature
+            of 81 automated tests to resolve flaky tests caused by premature
             assertions and data race conditions during parallel execution. This
             resulted in improvement of manageability, reliability, and readiness
             for HyperExecute and Harness deployment pipelines, while preventing
