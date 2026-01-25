@@ -39,11 +39,11 @@ const TimelineSection = () => {
           <p>
             ● Became a key contributor by delivering a modernized internal tool
             using Java/Spring and React/TypeScript, developing 4 RESTful APIs
-            with JUnit and Karate test coverage, and leading front-end
-            development by building 6 fully functional pages and 8 reusable
-            React components tested with Jest and Playwright. Currently
-            maintaining this tool and another internal application, resolving
-            defects and supporting ongoing modernization and quality efforts.
+            with JUnit, and leading front-end development by building 6 fully
+            functional pages and 8 reusable React components tested with Jest
+            and Playwright. Currently maintaining this tool and another internal
+            application, resolving defects and supporting ongoing modernization
+            and quality efforts.
           </p>
           <p>
             ● On the back-end, I developed 4 RESTful API services, using Spring
