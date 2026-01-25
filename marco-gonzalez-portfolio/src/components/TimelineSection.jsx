@@ -37,11 +37,13 @@ const TimelineSection = () => {
         </h6>
         <p>
           <p>
-            ● Took on a full-stack role and successfully rewrote & migrated an
-            internal web app, from VB.Net to Java/Spring and React/TypeScript
-            under a fast paced Scrum environment. This modernized the legacy web
-            app while aligning with business needs through regular demos and
-            communication with project owners.
+            ● Became a key contributor by delivering a modernized internal tool
+            using Java/Spring and React/TypeScript, developing 4 RESTful APIs
+            with JUnit and Karate test coverage, and leading front-end
+            development by building 6 fully functional pages and 8 reusable
+            React components tested with Jest and Playwright. Currently
+            maintaining this tool and another internal application, resolving
+            defects and supporting ongoing modernization and quality efforts.
           </p>
           <p>
             ● On the back-end, I developed 4 RESTful API services, using Spring
@@ -73,13 +75,14 @@ const TimelineSection = () => {
             positives.
           </p>
           <p>
-            ● Gained project ownership by developing deep understanding of
-            front-end and back-end components, proficiency in release
-            management, Harness deployments, and GitHub Actions to trigger
-            release workflows, monitor failing workflows, and deploy images. I
-            now serve as a primary liaison between engineering teams and project
-            owners regarding UAT deployments, release statuses, and
-            production-impacting defects affecting our end users.
+            ● Took project ownership by developing deep expertise across
+            front-end and back-end components, mastering release and snapshot
+            workflow management including Github Actions, release branching, and
+            Harness deployments. Now serve as a primary technical liaison
+            between engineering teams and business project owners, leading
+            defect investigation and resolution, coordinating UAT deployments,
+            and providing timely release status updates for production-impacting
+            issues.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
