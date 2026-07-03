@@ -73,19 +73,6 @@ const TimelineSection = () => {
             deployments, and provide release status updates for
             production-impacting issues.
           </p>
-          <p>
-            ● Created detailed low-level designs for RESTful APIs before
-            development, ensuring alignment with project requirements from the
-            start. This facilitated smoother implementation, minimized downtime,
-            and avoided rework caused by misalignment or unexpected challenges
-            during development.
-          </p>
-          <p>
-            ● Wrote comprehensive and detail-oriented API documentation for
-            existing APIs. Which included the creation of sample payloads. As a
-            result of this documentation, it increased developers' understanding
-            of such services and facilitated seamless integration.
-          </p>
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
