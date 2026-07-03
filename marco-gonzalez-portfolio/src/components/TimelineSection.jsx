@@ -37,30 +37,19 @@ const TimelineSection = () => {
         </h6>
         <p>
           <p>
-            ● Became a key contributor by delivering a modernized internal tool
-            using Java/Spring and React/TypeScript. Currently maintaining this
-            tool and another internal application, resolving defects and
-            supporting ongoing modernization and quality efforts.
+            ● Shipped a modernized internal application using Java Spring Boot
+            and React TypeScript. Built 4 RESTful APIs with JUnit and Karate
+            testing and developed 6 frontend pages and 8 reusable React
+            components with Jest and Playwright. Supporting ongoing production
+            enhancements.
           </p>
           <p>
-            ● On the back-end, I developed 4 RESTful API services, using Spring
-            Boot with JPA, to communicate with a Microsoft SQL Server database.
-            To test these new services, I wrote Karate and JUnit tests, and
-            utilized Postman to manually test and validate my API services,
-            ensuring proper request and response handling, and verifying that
-            the payloads, headers, and tokens were functioning as expected. This
-            allowed me to simulate different scenarios and confirm the APIs were
-            working as intended before integrating them with the front-end.
-          </p>
-          <p>
-            ● With my prior knowledge of React, I led front-end development for
-            our US team. I developed 6 new fully functional pages and 8 reusable
-            React components by utilizing Wells Fargo’s internal React library.
-            Additionally, I integrated my own API services, as well as services
-            developed by other engineers in my team, into the front-end to
-            ensure that data is dynamically being fetched or posted by user
-            interaction on the front-end. I utilized Jest for unit testing and
-            Playwright for automated testing.
+            ● Remediated 20 Severity 1 and Severity 2 security vulnerabilities
+            identified through enterprise AI-assisted security scanning tools
+            within a single sprint. Performed root cause analysis and
+            implemented secure code fixes using internal MCP servers and
+            AI-assisted workflows, improving application security posture under
+            an organization-wide remediation initiative.
           </p>
           <p>
             ● Independently refactored the tool’s initial Playwright test suite
@@ -72,14 +61,17 @@ const TimelineSection = () => {
             positives.
           </p>
           <p>
-            ● Took project ownership by developing deep expertise across
-            front-end and back-end components, mastering release and snapshot
-            workflow management including Github Actions, release branching, and
-            Harness deployments. Now serve as a primary technical liaison
-            between engineering teams and business project owners, leading
-            defect investigation and resolution, coordinating UAT deployments,
-            and providing timely release status updates for production-impacting
-            issues.
+            ● Took project ownership across full-stack components, managing
+            CI/CD release workflows using GitHub Actions, release branching, and
+            Harness deployments, while coordinating production releases through
+            Change Requests in ServiceNow, including implementation plans,
+            rollback strategies, and release documentation.
+          </p>
+          <p>
+            ● Serve as the primary technical liaison between engineering teams
+            and business stakeholders to triage defects, coordinate UAT
+            deployments, and provide release status updates for
+            production-impacting issues.
           </p>
           <p>
             ● Created detailed low-level designs for RESTful APIs before
@@ -127,16 +119,15 @@ const TimelineSection = () => {
           Full Stack Software Engineer Intern
         </h6>
         <p>
-          ● Successfully migrated a React Native application to a web-based
-          platform using React/TypeScript, Tailwind CSS, and Google Firebase by
-          developing and implementing 5 new react components and 1 new
-          accessibility settings page.
+          ● Migrated a React Native application to a web-based platform using
+          React TypeScript, Tailwind CSS, and Firebase by building 5 React
+          components and an accessibility settings page.
         </p>
         <p>
-          ● Utilized Github and Jira to promptly diagnose and resolve production
-          issues by conducting PR reviews. Ensured for clean and stable code to
-          be merged, allowing for smooth operation and minimal downtime by 50%
-          within an agile environment.
+          ● Used Jira to track user stories and collaborated on GitHub pull
+          requests to ensure code quality, stability, and adherence to best
+          coding practices, improving release stability by reducing production
+          defects by 50%.
         </p>
         <p>
           ● Assisted in preparing comprehensive reports, software documentation,
@@ -162,10 +153,10 @@ const TimelineSection = () => {
           Technology Intern
         </h6>
         <p>
-          ● Shaped the Strategic Customer Group website by crafting Agile User
-          Stories in Jira through collaborative discussions with 4 tech leads
+          ● Shaped the Strategic Customer Group website by crafting agile user
+          stories in Jira through collaborative discussions with 4 tech leads
           and 2 stakeholders to capture business requirements and ensure
-          top-notch UI/UX design.
+          top-notch UI/UX design
         </p>
         <p>
           ● Led Ponvory SharePoint site development, guiding brand integration,
@@ -173,10 +164,10 @@ const TimelineSection = () => {
           UI, while aligning it with the brand identity.
         </p>
         <p>
-          ● Extracted site data with Google Analytics and developed 2 Google
-          Data Studio dashboards to analyze metrics before and after a website
-          redesign. Led a demo for leadership, business teams, and stakeholders
-          to support future decision-making.
+          ● Pulled data with Google Analytics. Developed 2 Google Data Studio
+          dashboards to analyze metrics before and after a website redesign. Led
+          a demo for leadership, business teams, and stakeholders to support
+          future decision-making.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -231,14 +222,12 @@ const TimelineSection = () => {
           Data Science Research Intern
         </h6>
         <p>
-          ● As part of the ACSC program, I collaborated with 7 other
-          multidisciplinary teams to apply data science, computational thinking,
-          and enabled computational research experience towards a social
-          challenge.
+          ● Collaborated with 7 multidisciplinary team members to apply data
+          science and computational methods to a social impact research project.
         </p>
         <p>
           ● Used Python’s Matplotlib, Pandas, and NumPy libraries to parse CSV
-          files, clean data, and initialize DataFrames. Created 4 effective, and
+          files, clean data, and initialize DataFrames. Created 4 effective and
           engaging data visualizations to support my research question.
         </p>
         <p>
