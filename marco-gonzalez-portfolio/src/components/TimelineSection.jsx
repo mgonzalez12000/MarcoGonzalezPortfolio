@@ -44,12 +44,12 @@ const TimelineSection = () => {
             supporting production enhancements and maintenance.
           </p>
           <p>
-            ● Independently refactored the tool’s initial Playwright test suite
-            of 81 automated tests to resolve flaky tests caused by premature
-            assertions and data race conditions during parallel execution. This
-            resulted in improvement of manageability, reliability, and readiness
-            for HyperExecute and Harness deployment pipelines, while preventing
-            CI/CD slowdowns from unnecessary test restarts due to false
+            ● Refactored the initial Playwright test suite of 81 automated tests
+            for a 35,000+ line codebase, resolving flaky tests caused by
+            premature assertions and data race conditions during parallel
+            execution. Improved test maintainability, reliability, and readiness
+            for HyperExecute and Harness deployment pipelines while reducing
+            CI/CD slowdowns caused by unnecessary test reruns from false
             positives.
           </p>
           <p>
