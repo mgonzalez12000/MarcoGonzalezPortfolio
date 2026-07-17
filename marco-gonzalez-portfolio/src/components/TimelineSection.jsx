@@ -44,15 +44,6 @@ const TimelineSection = () => {
             supporting production enhancements and maintenance.
           </p>
           <p>
-            ● Drove investigation, remediation, and validation of Severity 1 and
-            Severity 2 security vulnerabilities identified through AI-assisted
-            security scans across two large-scale enterprise applications.
-            Performed root cause analysis and implemented secure code fixes
-            using internal MCP servers, AI-assisted workflows, and prompt
-            engineering techniques, strengthening application security and
-            supporting an ongoing company-wide remediation initiative.
-          </p>
-          <p>
             ● Independently refactored the tool’s initial Playwright test suite
             of 81 automated tests to resolve flaky tests caused by premature
             assertions and data race conditions during parallel execution. This
@@ -60,6 +51,15 @@ const TimelineSection = () => {
             for HyperExecute and Harness deployment pipelines, while preventing
             CI/CD slowdowns from unnecessary test restarts due to false
             positives.
+          </p>
+          <p>
+            ● Drove investigation, remediation, and validation of Severity 1 and
+            Severity 2 security vulnerabilities identified through AI-assisted
+            security scans across two large-scale enterprise applications.
+            Performed root cause analysis and implemented secure code fixes
+            using internal MCP servers, AI-assisted workflows, and prompt
+            engineering techniques, strengthening application security and
+            supporting an ongoing company-wide remediation initiative.
           </p>
           <p>
             ● Took project ownership across full-stack components, managing
