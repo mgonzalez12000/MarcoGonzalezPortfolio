@@ -37,19 +37,20 @@ const TimelineSection = () => {
         </h6>
         <p>
           <p>
-            ● Shipped a modernized internal application using Java Spring Boot
-            and React TypeScript. Built 4 RESTful APIs with JUnit and Karate
-            testing and developed 6 frontend pages and 8 reusable React
-            components with Jest and Playwright. Supporting ongoing production
-            enhancements.
+            ● Shipped a modernized internal application from start to finish
+            using Java Spring Boot and React TypeScript. Built 4 RESTful APIs
+            with JUnit and Karate testing and developed 6 frontend pages and 8
+            reusable React components with Jest and Playwright. Continue
+            supporting production enhancements and maintenance.
           </p>
           <p>
-            ● Remediated 20 Severity 1 and Severity 2 security vulnerabilities
-            identified through enterprise AI-assisted security scanning tools
-            within a single sprint. Performed root cause analysis and
-            implemented secure code fixes using internal MCP servers and
-            AI-assisted workflows, improving application security posture under
-            an organization-wide remediation initiative.
+            ● Drove investigation, remediation, and validation of Severity 1 and
+            Severity 2 security vulnerabilities identified through AI-assisted
+            security scans across two large-scale enterprise applications.
+            Performed root cause analysis and implemented secure code fixes
+            using internal MCP servers, AI-assisted workflows, and prompt
+            engineering techniques, strengthening application security and
+            supporting an ongoing company-wide remediation initiative.
           </p>
           <p>
             ● Independently refactored the tool’s initial Playwright test suite
