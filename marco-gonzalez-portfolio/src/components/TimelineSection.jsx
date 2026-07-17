@@ -39,8 +39,8 @@ const TimelineSection = () => {
           <p>
             ● Shipped a modernized internal application from start to finish
             using Java Spring Boot and React TypeScript. Built 4 RESTful APIs
-            with JUnit and Karate testing and developed 6 frontend pages and 8
-            reusable React components with Jest and Playwright. Continue
+            with JUnit and Karate tests and developed 6 frontend pages and 8
+            reusable React components with Jest and Playwright tests. Continue
             supporting production enhancements and maintenance.
           </p>
           <p>
